@@ -1,9 +1,12 @@
 using UnityEngine;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
     public float speed = 6f;
     public float jumpForce = 7f;
+
+    public GameObject gameOverText;
 
     private Rigidbody2D rb;
     private int jumpCount = 0;
@@ -11,6 +14,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        gameOverText.SetActive(false);
     }
 
     void Update()
@@ -36,6 +40,8 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacle"))
         {
             Debug.Log("GAME OVER");
+
+            gameOverText.SetActive(true);
             Time.timeScale = 0f;
         }
     }
