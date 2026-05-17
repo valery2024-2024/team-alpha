@@ -2,12 +2,19 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D other)
+    // CoinManager
+    public CoinManager coinManager;
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player"))
+        // Якщо торкнувся Player - гравець
+        if (collision.CompareTag("Player"))
         {
-            Debug.Log("Coin +1");
-            Destroy(gameObject);
+            // Додає монету
+            coinManager.AddCoin();
+
+            // Ховає монету
+            gameObject.SetActive(false);
         }
     }
 }

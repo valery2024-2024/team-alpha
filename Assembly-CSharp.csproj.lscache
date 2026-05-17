@@ -50,9 +50,13 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 /warnaserror+:NU1605
 
 [sourceFiles]
+Assets/Free 2D Cartoon Parallax Background/Demo/Script/
+ BackgroundControl_0.cs
+ ParallaxBackground_0.cs
 Assets/Scripts/
  CameraFollow.cs
  Coin.cs
+ CoinManager.cs
  ObjectPool.cs
  ObstacleMove.cs
  PlayerController.cs
