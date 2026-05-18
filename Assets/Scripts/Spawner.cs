@@ -2,20 +2,33 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject obstaclePrefab;
+    // Object Pool
+    public ObjectPool pool;
+
+    // Spawn point
     public Transform spawnPoint;
 
+    // Час появи
     public float spawnTime = 2f;
-    private float timer;
 
-    void Update()
+    void Start()
     {
-        timer += Time.deltaTime;
+        InvokeRepeating("SpawnObstacle", 1f, spawnTime);
+    }
 
-        if (timer >= spawnTime)
+    void SpawnObstacle()
+    {
+        // Бере obstacle - перешкоду з pool
+        GameObject obj = pool.GetObject();
+
+        // Якщо obstacle - перешкода є
+        if (obj != null)
         {
-            Instantiate(obstaclePrefab, spawnPoint.position, Quaternion.identity);
-            timer = 0f;
+            // Показує obstacle - перешкоду
+            obj.SetActive(true);
+
+            // Позиція obstacle - перешкоди
+            obj.transform.position = spawnPoint.position;
         }
     }
 }
