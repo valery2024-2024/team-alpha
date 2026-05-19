@@ -28,6 +28,14 @@ public class HUDManager : MonoBehaviour
     {
         // Таймер зменшується
         timer -= Time.deltaTime;
+        // Якщо час закінчився
+        if (timer <= 0)
+        {
+            timer = 0;
+
+            // Викликає перемогу
+            FindObjectOfType<PauseManager>().WinGame();
+        }
 
         // Оновлення тексту таймера
         timerText.text = "Time: " + Mathf.Round(timer);

@@ -5,6 +5,7 @@ public class PauseManager : MonoBehaviour
 {
     // Pause panel
     public GameObject pausePanel;
+    public GameObject winPanel;
 
     // Чи гра на паузі
     private bool isPaused = false;
@@ -59,5 +60,14 @@ public class PauseManager : MonoBehaviour
         Time.timeScale = 1f;
 
         SceneManager.LoadScene("MainMenu");
+    }
+
+    // Перемога
+    public void WinGame()
+    { 
+        Time.timeScale = 0f;
+
+        // Показуємо вікно перемоги
+        winPanel.SetActive(true);
     }
 }
