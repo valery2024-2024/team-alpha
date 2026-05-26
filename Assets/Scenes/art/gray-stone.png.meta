@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: bed9c6d9b6c5a6d498c92fc2f2f0c61f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4095906145522214046
+    second: gray-stone_0
+  - first:
+      213: 5701363709164876864
+    second: gray-stone_1
+  - first:
+      213: -2468079851916580676
+    second: gray-stone_2
+  - first:
+      213: 6939729731333875248
+    second: gray-stone_3
+  - first:
+      213: -8047093108553168243
+    second: gray-stone_4
+  - first:
+      213: -4868438266370444344
+    second: gray-stone_5
+  - first:
+      213: -6394748349921689527
+    second: gray-stone_6
+  - first:
+      213: 3478669949664849357
+    second: gray-stone_7
+  - first:
+      213: 4832343009774225484
+    second: gray-stone_8
+  - first:
+      213: 3838363999065490341
+    second: gray-stone_9
+  - first:
+      213: 5578482196711162063
+    second: gray-stone_10
+  - first:
+      213: -5249200892099079498
+    second: gray-stone_11
+  - first:
+      213: -8844038733642623701
+    second: gray-stone_12
+  - first:
+      213: 2897525456260109515
+    second: gray-stone_13
+  - first:
+      213: -5904618725573532580
+    second: gray-stone_14
+  - first:
+      213: 5240133748829681854
+    second: gray-stone_15
+  - first:
+      213: 7535005431315616571
+    second: gray-stone_16
+  - first:
+      213: -4630689651976466299
+    second: gray-stone_17
+  - first:
+      213: -8938834552836194616
+    second: gray-stone_18
+  - first:
+      213: 5806416894385647307
+    second: gray-stone_19
+  - first:
+      213: -3418709852783508988
+    second: gray-stone_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gray-stone_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 299
+        width: 107
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b1fcacf0b6827c0800000000000000
+      internalID: -4095906145522214046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 285
+        width: 125
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044731c16105f1f40800000000000000
+      internalID: 5701363709164876864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 292
+        width: 125
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8a63d737e9fbdd0800000000000000
+      internalID: -2468079851916580676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_3
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 307
+        width: 98
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0366f512c6fde4060800000000000000
+      internalID: 6939729731333875248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_4
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 301
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ac13ef37bf25090800000000000000
+      internalID: -8047093108553168243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_5
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 293
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3321ad035df6cb0800000000000000
+      internalID: -4868438266370444344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 273
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94007eea14a4147a0800000000000000
+      internalID: -6394748349921689527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 130
+        width: 147
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd699073e7b64030800000000000000
+      internalID: 3478669949664849357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_8
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 164
+        width: 132
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c484f625d5eef0340800000000000000
+      internalID: 4832343009774225484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 171
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a342fa78bb944530800000000000000
+      internalID: 3838363999065490341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 180
+        width: 112
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc04fc87000ca6d40800000000000000
+      internalID: 5578482196711162063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 169
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b255cf99971727b0800000000000000
+      internalID: -5249200892099079498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 161
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b259f6521a9a34580800000000000000
+      internalID: -8844038733642623701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 168
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4190cfc04163820800000000000000
+      internalID: 2897525456260109515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_14
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 29
+        width: 130
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54e1189d849e0ea0800000000000000
+      internalID: -5904618725573532580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 21
+        width: 96
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8778291e1b8b840800000000000000
+      internalID: 5240133748829681854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 29
+        width: 100
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33d4328487b19860800000000000000
+      internalID: 7535005431315616571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_17
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 128
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5809dd4cb4c7cbfb0800000000000000
+      internalID: -4630689651976466299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_18
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 41
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cef53c8551e2f380800000000000000
+      internalID: -8938834552836194616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_19
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 42
+        width: 101
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bceeea7d669849050800000000000000
+      internalID: 5806416894385647307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gray-stone_20
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 21
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40206b2808d4e80d0800000000000000
+      internalID: -3418709852783508988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gray-stone_0: -4095906145522214046
+      gray-stone_1: 5701363709164876864
+      gray-stone_10: 5578482196711162063
+      gray-stone_11: -5249200892099079498
+      gray-stone_12: -8844038733642623701
+      gray-stone_13: 2897525456260109515
+      gray-stone_14: -5904618725573532580
+      gray-stone_15: 5240133748829681854
+      gray-stone_16: 7535005431315616571
+      gray-stone_17: -4630689651976466299
+      gray-stone_18: -8938834552836194616
+      gray-stone_19: 5806416894385647307
+      gray-stone_2: -2468079851916580676
+      gray-stone_20: -3418709852783508988
+      gray-stone_3: 6939729731333875248
+      gray-stone_4: -8047093108553168243
+      gray-stone_5: -4868438266370444344
+      gray-stone_6: -6394748349921689527
+      gray-stone_7: 3478669949664849357
+      gray-stone_8: 4832343009774225484
+      gray-stone_9: 3838363999065490341
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
