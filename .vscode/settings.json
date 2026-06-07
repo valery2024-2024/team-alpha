@@ -69,6 +69,7 @@
     "dotnet.defaultSolution": "team-alpha.sln",
     "cSpell.words": [
         "Behaviour",
+        "Dont",
         "Rigidbody",
         "UGUI"
     ]

@@ -5,12 +5,19 @@ public class Coin : MonoBehaviour
     [Header("Звук збору монети")]
     public AudioClip coinSound;
 
+    private AudioSource audioSource;
+
+    private void Start()
+    {
+        // Беремо AudioSource з Player
+        audioSource = FindFirstObjectByType<PlayerController>()
+            .GetComponent<AudioSource>();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Якщо монету торкнувся Player
         if (collision.CompareTag("Player"))
         {
-            // Додаємо монету до лічильника
             CoinManager coinManager = FindFirstObjectByType<CoinManager>();
 
             if (coinManager != null)
@@ -18,13 +25,12 @@ public class Coin : MonoBehaviour
                 coinManager.AddCoin();
             }
 
-            // Програємо звук монети
-            if (coinSound != null)
+            // Відтворення звуку
+            if (coinSound != null && audioSource != null)
             {
-                AudioSource.PlayClipAtPoint(coinSound, transform.position);
+                audioSource.PlayOneShot(coinSound);
             }
 
-            // Ховаємо монету після збору
             gameObject.SetActive(false);
         }
     }
