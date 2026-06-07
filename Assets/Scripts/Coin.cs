@@ -2,18 +2,29 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    // CoinManager
-    public CoinManager coinManager;
+    [Header("Звук збору монети")]
+    public AudioClip coinSound;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Якщо торкнувся Player - гравець
+        // Якщо монету торкнувся Player
         if (collision.CompareTag("Player"))
         {
-            // Додає монету
-            coinManager.AddCoin();
+            // Додаємо монету до лічильника
+            CoinManager coinManager = FindFirstObjectByType<CoinManager>();
 
-            // Ховає монету
+            if (coinManager != null)
+            {
+                coinManager.AddCoin();
+            }
+
+            // Програємо звук монети
+            if (coinSound != null)
+            {
+                AudioSource.PlayClipAtPoint(coinSound, transform.position);
+            }
+
+            // Ховаємо монету після збору
             gameObject.SetActive(false);
         }
     }

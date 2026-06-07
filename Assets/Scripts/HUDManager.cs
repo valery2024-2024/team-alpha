@@ -22,7 +22,7 @@ public class HUDManager : MonoBehaviour
     public int level = 1;
 
     // Час рівня
-    public float timer = 60f;
+    public float timer = 10f;
 
     void Update()
     {
