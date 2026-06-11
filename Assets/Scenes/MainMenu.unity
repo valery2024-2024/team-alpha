@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 93834794}
   - component: {fileID: 93834797}
   - component: {fileID: 93834798}
+  - component: {fileID: 93834799}
   m_Layer: 5
   m_Name: SettingsPanel
   m_TagString: Untagged
@@ -410,6 +411,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 2
+--- !u!114 &93834799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93834792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fcdade392038c4c8d6550172e0d720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeSlider: {fileID: 1460758230}
 --- !u!1 &103904432
 GameObject:
   m_ObjectHideFlags: 0
